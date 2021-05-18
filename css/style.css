@@ -21,6 +21,16 @@ section.contatti .input_text{
 section.contatti button{
     min-width: 65px;
 }
+footer .footer_up{
+    background-color: #3a546d;
+    color: white;
+}
+footer .marchi .con_i{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+}
 
 
 
