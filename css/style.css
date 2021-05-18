@@ -6,7 +6,30 @@
     width: 100%;
 }
 .square_image{
-    height: 300px;
+    height: 50vw;
     background-color: yellow;
     border: 1px solid black;
+}
+section.references{
+    background-color: #1abc9c;
+}
+
+
+
+
+
+
+
+
+@media (min-width:576px){
+    .square_image{
+        height: 40vw;
+    }
+}
+
+@media (min-width:992px){
+    .square_image{
+        height: 22vw;
+        max-height: 350px;
+    }
 }
