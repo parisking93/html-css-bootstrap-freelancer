@@ -1,0 +1,12 @@
+.jumbotron{
+    background-color: red;
+}
+
+.jumbotron img{
+    width: 100%;
+}
+.square_image{
+    height: 300px;
+    background-color: yellow;
+    border: 1px solid black;
+}
