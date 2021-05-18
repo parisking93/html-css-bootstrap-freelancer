@@ -14,8 +14,13 @@ section.references{
     background-color: #1abc9c;
 }
 
-
-
+section.contatti .input_text{
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+section.contatti button{
+    min-width: 65px;
+}
 
 
 
