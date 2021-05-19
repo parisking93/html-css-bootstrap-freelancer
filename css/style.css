@@ -42,8 +42,12 @@ header nav{
 section.portfoglio img{
     width: 100%;
 }
+section.portfoglio .square-image{
+    width: 100%;
+    height: 100%;
+}
 section.portfoglio .layover{
-    width: calc(100% - 24px);
+    width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.4);
 }
@@ -90,7 +94,7 @@ footer .cop{
     vertical-align: middle;
 }
 /* fine footer inizio hover */
-.square_image:hover .layover{
+.portfoglio .square:hover .layover{
     display: block !important;
     cursor: pointer;
 }
@@ -99,12 +103,3 @@ footer .marchi .con_i:hover, .references .btn_about:hover{
     cursor: pointer;
 }
 /* fine hover inizio media query  */
-@media (min-width:576px){
-    section.portfoglio .square_image{
-        padding: 0;
-    }
-    .square_image:hover .layover{
-        width: 100%;
-        height: 100%;
-    }
-}
