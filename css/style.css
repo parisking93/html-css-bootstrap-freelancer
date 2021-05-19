@@ -51,6 +51,9 @@ section.portfoglio .layover{
 section.references{
     background-color: #1abc9c;
 }
+.btn_about{
+    transition: all 0.5s ease;
+}
 /* fine sezione references e inizio sezione contatti  */
 section.contatti .input_text, section.contatti .text_area{
     border: 0;
@@ -76,6 +79,15 @@ footer .marchi .con_i{
     height: 25px;
     width: 25px;
     border: 1px solid white;
+    transition: all 0.5s ease;
+
+}
+footer .t-f{
+    color: #1abc9c;
+}
+footer .cop{
+    font-size: 12px;
+    vertical-align: middle;
 }
 /* fine footer inizio hover */
 .square_image:hover .layover{
@@ -92,10 +104,3 @@ footer .marchi .con_i:hover, .references .btn_about:hover{
         padding: 0;
     }
 }
-
-/* @media (min-width:992px){
-    .square_image{
-        height: 22vw;
-        max-height: 350px;
-    }
-} */
