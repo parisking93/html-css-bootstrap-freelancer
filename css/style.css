@@ -1,22 +1,12 @@
 /* COMMONS  */
-.star::after{
+.star::after, .star::before {
     content: '';
     height: 3px;
     width: 10vw;
     background-color: white;
     display: inline-block;
 }
-.star::before{
-    content: '';
-    height: 3px;
-    width: 10vw;
-    background-color: white;
-    display: inline-block;
-}
-.star.black::after{
-    background-color: black;
-}
-.star.black::before{
+.star.black::after, .star.black::before{
     background-color: black;
 }
 /* FINE COMMONS  */
