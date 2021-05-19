@@ -3,19 +3,29 @@
     content: '';
     height: 3px;
     width: 10vw;
-    background-color: black;
+    background-color: white;
     display: inline-block;
 }
 .star::before{
     content: '';
     height: 3px;
     width: 10vw;
-    background-color: black;
+    background-color: white;
     display: inline-block;
 }
+.star.black::after{
+    background-color: black;
+}
+.star.black::before{
+    background-color: black;
+}
 /* FINE COMMONS  */
+header nav{
+    background-color: #2c3e50;
+}
 .jumbotron{
     background-color: #1abc9c;
+    color: white;
 }
 .jumbotron img{
     width: 100%;
@@ -31,7 +41,7 @@ section.portfoglio img{
 section.references{
     background-color: #1abc9c;
 }
-section.contatti .input_text{
+section.contatti .input_text, section.contatti .text_area{
     border: 0;
     border-bottom: 1px solid gray;
 }
