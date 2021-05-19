@@ -82,6 +82,10 @@ footer .marchi .con_i{
     display: block !important;
     cursor: pointer;
 }
+footer .marchi .con_i:hover, .references .btn_about:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 /* fine hover inizio media query  */
 @media (min-width:576px){
     section.portfoglio .square_image{
