@@ -1,19 +1,33 @@
 .jumbotron{
-    background-color: red;
+    background-color: #1abc9c;
 }
-
 .jumbotron img{
     width: 100%;
 }
-.square_image{
-    height: 50vw;
-    background-color: yellow;
-    border: 1px solid black;
+.star::after{
+    content: '';
+    height: 3px;
+    width: 10vw;
+    background-color: black;
+    display: inline-block;
+}
+.star::before{
+    content: '';
+    height: 3px;
+    width: 10vw;
+    background-color: black;
+    display: inline-block;
+}
+section.portfoglio .square_image{
+    padding: 1rem;
+}
+section.portfoglio img{
+    width: 100%;
+    border-radius: 2%;
 }
 section.references{
     background-color: #1abc9c;
 }
-
 section.contatti .input_text{
     border: 0;
     border-bottom: 1px solid gray;
@@ -43,14 +57,14 @@ footer .marchi .con_i{
 
 
 @media (min-width:576px){
-    .square_image{
-        height: 40vw;
+    section.portfoglio .square_image{
+        padding: 0;
     }
 }
 
-@media (min-width:992px){
+/* @media (min-width:992px){
     .square_image{
         height: 22vw;
         max-height: 350px;
     }
-}
+} */
